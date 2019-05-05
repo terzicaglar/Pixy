@@ -1,0 +1,4 @@
+method ikili $1,$2,e #1
+march sw
+method ikili $1,$2,w #1
+march se

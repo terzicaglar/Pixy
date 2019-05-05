@@ -1,0 +1,5 @@
+color $1
+ink
+march e
+color red
+ink

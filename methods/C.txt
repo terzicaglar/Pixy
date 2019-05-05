@@ -1,0 +1,8 @@
+march e
+method line E,W,5,5 1 
+method line S,N,5,1 1
+method line E,W,5,5 1 
+march s
+march s
+march e
+method line E,W,3,3 1 

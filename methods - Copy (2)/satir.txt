@@ -1,0 +1,2 @@
+method yatay null #1
+method altsatiragec #1 1
