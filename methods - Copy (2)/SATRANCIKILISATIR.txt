@@ -1,2 +1,0 @@
-method satrancsatir $1,$2 #1
-method satrancsatir $2,$1 #1

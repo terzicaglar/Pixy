@@ -1,3 +1,11 @@
+package com.terzi.caglar.pixy.gui;
+
+import com.terzi.caglar.pixy.gui.PlaceHolderTextField;
+import com.terzi.caglar.pixy.logic.Board;
+import com.terzi.caglar.pixy.logic.Method;
+import com.terzi.caglar.pixy.logic.Command;
+import com.terzi.caglar.pixy.logic.CommandPerformer;
+
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Graphics;
@@ -16,7 +24,6 @@ import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.StringTokenizer;
 
-import javax.swing.BoxLayout;
 import javax.swing.JButton;
 import javax.swing.JCheckBox;
 import javax.swing.JComboBox;
@@ -34,25 +41,29 @@ public class BoardFrame extends JFrame implements ActionListener
 {
 	private JComboBox methodBox;
 	private Board board;
-	private BoardPanel bp;
-	private JPanel commandPanel, rightPanel, buttonPanel, bottomPanel;
+	private BoardPanel boardPanel; //board panel at left, which shows the drawn pixels
+	private JPanel rightPanel, //right panel which contains commandPanel, buttonPanel, and bottomPanel
+			commandPanel, //panel where user enters commans (code)
+			buttonPanel, //panel where Run and Save buttons are placed
+			bottomPanel; //panel where Show Grids checkbox, and row/column text fields are placed
 	private JTextArea textArea, methodArea;
-	private JTextField tf,rowsField,colsField;
+	private JTextField rowsField,colsField;
+	private PlaceHolderTextField tf;
 	private JCheckBox showGrids;
 	private JButton run, save, save2, delete;
 	private Command[] commandList;
 	private CommandPerformer commandPerformer;
 	private Timer delay;
-	private String tfString = "Enter a method name", methodLoc = "methods/";
+	private String placeHolderText = "Enter a method name to save", methodLoc = "methods/";
 	private ArrayList<Method> methodList;
-	public BoardFrame(Board board,Command[] commandList, ArrayList<Method> methodList)
+	public BoardFrame(Board board, Command[] commandList, ArrayList<Method> methodList)
 	{
 	//to  Set JFrame title
 		super("PiXY");
 		this.methodList = methodList;
 		this.commandList = commandList;
 		commandPerformer = new CommandPerformer(board, commandList);
-		bp = new BoardPanel();
+		boardPanel = new BoardPanel();
 		rightPanel = new JPanel();
 		rightPanel.setLayout(new BorderLayout());
 		
@@ -64,12 +75,14 @@ public class BoardFrame extends JFrame implements ActionListener
 		
 		//setLayout(new BorderLayout());
 		setLayout(new GridLayout(1, 2));
-		add(bp);
+		add(boardPanel);
 		add(rightPanel);
 		
 		JTabbedPane tabbedPane = new JTabbedPane();
-		tf = new JTextField(tfString);
-		
+		tf = new PlaceHolderTextField();
+		tf.setPlaceholder(placeHolderText);
+
+
 		rowsField = new JTextField("" + board.getRows());
 		colsField = new JTextField("" + board.getCols());
 		
@@ -135,7 +148,7 @@ public class BoardFrame extends JFrame implements ActionListener
 		//Make JFrame visible
 		setVisible(true);
 		
-		bp.repaint();
+		boardPanel.repaint();
 		
 		try {
 			Thread.sleep(1000);
@@ -144,7 +157,7 @@ public class BoardFrame extends JFrame implements ActionListener
 			e.printStackTrace();
 		}
 
-		bp.repaint();
+		boardPanel.repaint();
 	}
 
 	private void addItemstoMethodArea()
@@ -205,8 +218,8 @@ public class BoardFrame extends JFrame implements ActionListener
             {
             	rows = Integer.parseInt(rowsField.getText());
             }
-            catch(Exception e){
-            	System.out.println("Rows should be Integer");
+            catch(NumberFormatException e){
+            	System.out.println("Rows should be Integer" + e.getMessage());
 
             	rowsField.setBackground(Color.YELLOW);
             }
@@ -302,7 +315,7 @@ public class BoardFrame extends JFrame implements ActionListener
 			
 			/*if(e.getSource() == save && !error)
 			{
-				if(tf.getText().equals(tfString) || tf.getText().length() <= 0)
+				if(tf.getText().equals(placeHolderText) || tf.getText().length() <= 0)
 				{
 					tf.setBackground(Color.YELLOW);
 				}
@@ -330,7 +343,7 @@ public class BoardFrame extends JFrame implements ActionListener
 		}
 		else if(e.getSource() == save)
 		{
-			if(tf.getText().equals(tfString) || tf.getText().length() <= 0)
+			if(tf.getText().length() <= 0)
 			{
 				tf.setBackground(Color.YELLOW);
 			}
@@ -428,8 +441,8 @@ public class BoardFrame extends JFrame implements ActionListener
 
 	public void repaintBoard()
 	{
-		bp.revalidate();
-		bp.repaint();
+		boardPanel.revalidate();
+		boardPanel.repaint();
 	}
 	
 

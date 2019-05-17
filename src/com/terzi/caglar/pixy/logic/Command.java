@@ -1,3 +1,5 @@
+package com.terzi.caglar.pixy.logic;
+
 import java.util.ArrayList;
 
 
@@ -6,14 +8,14 @@ public class Command {
 	private Input inputs[];
 	private int paramLength;
 	
-	Command(String name, int paramLength, Input[] inputs)
+	public Command(String name, int paramLength, Input[] inputs)
 	{
 		this.name = name;
 		this.inputs = inputs;
 		this.paramLength = paramLength;
 	}
 
-	Command(String name)
+	public Command(String name)
 	{
 		this.name = name;
 		this.inputs = null;

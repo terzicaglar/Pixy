@@ -1,3 +1,5 @@
+package com.terzi.caglar.pixy.logic;
+
 import java.awt.Color;
 
 

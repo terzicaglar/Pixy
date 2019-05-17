@@ -1,7 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f9adb38-240a-49a6-bb04-8194138ea1e5" name="Default Changelist" comment="" />
+    <list default="true" id="7f9adb38-240a-49a6-bb04-8194138ea1e5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/terzi/caglar/pixy/gui/PlaceHolderTextField.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Board.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/BoardFrame$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/BoardFrame$BoardPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/BoardFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Command.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/CommandPerformer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Game.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Input.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Method.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/methods - Copy (2)/AGACAN.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/methods - Copy (2)/ALTSATIRAGEC.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/methods - Copy (2)/C.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/methods - Copy (2)/EBEN.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/methods - Copy (2)/GETBACK.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/methods - Copy (2)/KARE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/methods - Copy (2)/LINE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/methods - Copy (2)/MARCH1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/methods - Copy (2)/SATRANC.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/methods - Copy (2)/SATRANCIKILISATIR.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/methods - Copy (2)/SATRANCSATIR.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/methods - Copy (2)/SIRABASI.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/methods - Copy (2)/TEKLI.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/methods - Copy (2)/YATAY.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/methods - Copy (2)/satir.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/methods - Copy/ALTSATIRAGEC.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/methods - Copy/KARE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/methods - Copy/SATRANC.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/methods - Copy/SATRANCIKILISATIR.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/methods - Copy/SATRANCSATIR.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/methods - Copy/SIRABASI.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/methods - Copy/YATAY.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/methods - Copy/satir.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/methods/AGACAN.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/methods/EBEN.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/methods/ESRA2SATIR.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/methods/ESRASATIR.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/methods/ESRASTATIR.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/methods/satir.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/terzi/caglar/pixy/logic/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BoardFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/terzi/caglar/pixy/gui/BoardFrame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/terzi/caglar/pixy/logic/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CommandPerformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/terzi/caglar/pixy/logic/CommandPerformer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/terzi/caglar/pixy/main/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/terzi/caglar/pixy/logic/Input.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Method.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/terzi/caglar/pixy/logic/Method.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,12 +63,12 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BoardFrame.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/terzi/caglar/pixy/gui/BoardFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-595">
-              <caret line="37" column="43" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
+            <state relative-caret-position="688">
+              <caret line="233" column="12" lean-forward="true" selection-start-line="233" selection-start-column="12" selection-end-line="233" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -28,69 +77,118 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Game.java">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/Integer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="100">
+              <caret line="613" column="36" selection-start-line="613" selection-start-column="22" selection-end-line="613" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Input.java">
+        <entry file="file://$PROJECT_DIR$/src/com/terzi/caglar/pixy/main/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-85">
-              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Method.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-102">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            <state relative-caret-position="-146">
+              <caret line="82" column="35" selection-start-line="82" selection-start-column="35" selection-end-line="82" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Board.java">
+        <entry file="file://$PROJECT_DIR$/src/com/terzi/caglar/pixy/logic/Input.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-459">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            <state relative-caret-position="-552">
+              <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Command.java">
+        <entry file="file://$PROJECT_DIR$/src/com/terzi/caglar/pixy/logic/Method.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-95">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            <state>
+              <caret column="29" selection-start-column="28" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CommandPerformer.java">
+        <entry file="file://$PROJECT_DIR$/src/com/terzi/caglar/pixy/logic/Board.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state>
+              <caret column="29" selection-start-column="28" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/terzi/caglar/pixy/logic/Command.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="29" selection-start-column="28" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/terzi/caglar/pixy/logic/CommandPerformer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3026">
+              <caret line="227" column="53" selection-start-line="227" selection-start-column="47" selection-end-line="227" selection-end-column="53" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>300</find>
+      <find>placeh</find>
+      <find>enter</find>
+      <find>enter a</find>
+      <find>placeholder</find>
+      <find>placeHolderText</find>
+      <find>com.terzi.caglar.pixy.logic.</find>
+      <find>terz</find>
+      <find>yello</find>
+      <find>yellow</find>
+      <find>parseınt</find>
+      <find>parseint(Strin</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Method.java" />
+        <option value="$PROJECT_DIR$/src/PlaceHoldertextField.java" />
+        <option value="$PROJECT_DIR$/src/BoardFrame.java" />
+        <option value="$PROJECT_DIR$/src/com/terzi/caglar/pixy/gui/PlaceHolderTextField.java" />
+        <option value="$PROJECT_DIR$/src/Game.java" />
+        <option value="$PROJECT_DIR$/src/com/terzi/caglar/pixy/logic/Command.java" />
+        <option value="$PROJECT_DIR$/src/com/terzi/caglar/pixy/main/Game.java" />
+        <option value="$PROJECT_DIR$/src/com/terzi/caglar/pixy/gui/BoardFrame.java" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="y" value="-7" />
-    <option name="width" value="1295" />
-    <option name="height" value="695" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1296" />
+    <option name="height" value="696" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -111,6 +209,33 @@
               <item name="Pixy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Pixy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pixy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pixy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pixy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pixy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pixy" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pixy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pixy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pixy" type="462c0819:PsiDirectoryNode" />
+              <item name="logic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pixy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pixy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pixy" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -121,6 +246,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -136,7 +262,7 @@
   </component>
   <component name="RunManager">
     <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Game" />
+      <option name="MAIN_CLASS_NAME" value="com.terzi.caglar.pixy.main.Game" />
       <module name="Pixy" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -159,89 +285,156 @@
       <option name="presentableId" value="Default" />
       <updated>1557084252451</updated>
     </task>
+    <task id="LOCAL-00001" summary="Pixy v1">
+      <created>1557085100701</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1557085100701</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Pixy v1">
+      <created>1557085181489</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1557085181489</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.26477733" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3997833" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3285968" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.3285968" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3285968" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24939272" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26477733" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3285968" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3285968" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24939272" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Pixy v1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pixy v1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Board.java">
+    <entry file="file://$PROJECT_DIR$/src/com/terzi/caglar/pixy/gui/PlaceHolderTextField.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-459">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BoardFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-595">
-          <caret line="37" column="43" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
+        <state>
+          <caret column="29" selection-start-column="29" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Command.java">
+    <entry file="file://$PROJECT_DIR$/src/com/terzi/caglar/pixy/logic/Input.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-95">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        <state relative-caret-position="-552">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CommandPerformer.java">
+    <entry file="file://$PROJECT_DIR$/src/com/terzi/caglar/pixy/logic/Method.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state>
+          <caret column="29" selection-start-column="28" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Input.java">
+    <entry file="file://$PROJECT_DIR$/src/com/terzi/caglar/pixy/logic/Board.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+        <state>
+          <caret column="29" selection-start-column="28" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Game.java">
+    <entry file="file://$PROJECT_DIR$/src/com/terzi/caglar/pixy/logic/Command.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state>
+          <caret column="29" selection-start-column="28" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Method.java">
+    <entry file="file://$PROJECT_DIR$/src/com/terzi/caglar/pixy/logic/CommandPerformer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        <state relative-caret-position="3026">
+          <caret line="227" column="53" selection-start-line="227" selection-start-column="47" selection-end-line="227" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="613" column="36" selection-start-line="613" selection-start-column="22" selection-end-line="613" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/terzi/caglar/pixy/main/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-146">
+          <caret line="82" column="35" selection-start-line="82" selection-start-column="35" selection-end-line="82" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/terzi/caglar/pixy/gui/BoardFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="688">
+          <caret line="233" column="12" lean-forward="true" selection-start-line="233" selection-start-column="12" selection-end-line="233" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

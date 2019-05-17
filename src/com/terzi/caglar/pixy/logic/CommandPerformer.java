@@ -1,3 +1,8 @@
+package com.terzi.caglar.pixy.logic;
+
+import com.terzi.caglar.pixy.logic.Board;
+import com.terzi.caglar.pixy.logic.Method;
+
 import java.awt.Color;
 import java.io.BufferedReader;
 import java.io.File;

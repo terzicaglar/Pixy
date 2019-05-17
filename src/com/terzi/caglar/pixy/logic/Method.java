@@ -1,3 +1,5 @@
+package com.terzi.caglar.pixy.logic;
+
 import java.util.ArrayList;
 
 
@@ -5,7 +7,8 @@ public class Method {
 	private ArrayList<Integer> integers;
 	private ArrayList<String> strings;
 	private String name;
-	
+
+
 	public Method(ArrayList<Integer> integers, ArrayList<String> strings, String name) {
 		this.setIntegers(integers);
 		this.setStrings(strings);
