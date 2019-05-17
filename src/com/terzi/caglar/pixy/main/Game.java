@@ -71,7 +71,7 @@ import java.util.ArrayList;
 		gui package
 			BoardFrame:
 
-	Board: Board to be drawn, has a color matrix to represent the board
+	Board: Board to be drawn, has a color matrix to represent the board.
 
  */
 
