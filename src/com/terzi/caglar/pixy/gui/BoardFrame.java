@@ -6,10 +6,7 @@ import com.terzi.caglar.pixy.logic.Method;
 import com.terzi.caglar.pixy.logic.Command;
 import com.terzi.caglar.pixy.logic.CommandPerformer;
 
-import java.awt.BorderLayout;
-import java.awt.Color;
-import java.awt.Graphics;
-import java.awt.GridLayout;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
@@ -24,15 +21,7 @@ import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.StringTokenizer;
 
-import javax.swing.JButton;
-import javax.swing.JCheckBox;
-import javax.swing.JComboBox;
-import javax.swing.JFrame;
-import javax.swing.JPanel;
-import javax.swing.JTabbedPane;
-import javax.swing.JTextArea;
-import javax.swing.JTextField;
-import javax.swing.Timer;
+import javax.swing.*;
 import javax.swing.text.BadLocationException;
 import javax.swing.text.DefaultHighlighter;
 import javax.swing.text.Highlighter;
@@ -56,6 +45,9 @@ public class BoardFrame extends JFrame implements ActionListener
 	private Timer delay;
 	private String placeHolderText = "Enter a method name to save", methodLoc = "methods/";
 	private ArrayList<Method> methodList;
+	private JMenuBar menuBar;
+	private JMenu helpMenu;
+	private JMenuItem help;
 	public BoardFrame(Board board, Command[] commandList, ArrayList<Method> methodList)
 	{
 	//to  Set JFrame title
@@ -63,6 +55,17 @@ public class BoardFrame extends JFrame implements ActionListener
 		this.methodList = methodList;
 		this.commandList = commandList;
 		commandPerformer = new CommandPerformer(board, commandList);
+
+		menuBar = new JMenuBar();
+		helpMenu = new JMenu("Help");
+		menuBar.add(helpMenu);
+		this.setJMenuBar(menuBar);
+
+
+		help = new JMenuItem("Help Document");
+		helpMenu.add(help);
+		help.addActionListener(this);
+
 		boardPanel = new BoardPanel();
 		rightPanel = new JPanel();
 		rightPanel.setLayout(new BorderLayout());
@@ -437,6 +440,61 @@ public class BoardFrame extends JFrame implements ActionListener
 			System.out.println(index);
 			fillMethodArea();
 		}
+		else if(e.getSource() == help)
+		{
+			System.out.println("menu bar");
+			JOptionPane.showMessageDialog(null, "PiXY Game\n" +
+					"\t\tCreate pixel based drawings using PiXY Language!\n" +
+					"\t\tYou can create custom methods for any drawing (like a chess board) and you can repeat these drawings by calling these methods\n" +
+					"\t\tIn order to draw a pixel based drawing, you should enter valid commands to the command screen on the\n" +
+					"\t\t\tleft-side text area and then you should click Run button on your right.\n" +
+					"\t\tYou can save your commands by writing the method name on the text field on the right-top text field.\n" +
+					"\n" +
+					"\t\tIf you wish to call your pre saved method, you need to write a command like this:\n" +
+					"\n" +
+					"\t\t\tmethod method_name param1,param2,param3 no_of_recurrences\n" +
+					"\n" +
+					"\t\tHere, all 4 fields are mandatory, i.e., you must write method keyword at the beginning, then write the\n" +
+					"\t\t\tmethod name ex:chess, write the paramaters ex:red,yellow,4 (if you do not have any parameters you can write null)\n" +
+					"\t\t\tand at last number of recurrences should be given ex:3 (if you do not call the method more than once,\n" +
+					"\t\t\tyou should set it as 1) An example:\n" +
+					"\n" +
+					"\t\t\tmethod chess yellow,red,4,1 1\n" +
+					"\n" +
+					"\t\tInteger parameters can be any int value, however, there are restrictions for String values. You should\n" +
+					"\t\tonly use String values given below:\n" +
+					"\n" +
+					"\t\t\tColor List:\n" +
+					"\n" +
+					"\t\t\t\"RED\", \"BLACK\", \"BLUE\", \"GREEN\", \"YELLOW\", \"WHITE\", \"ORANGE\", \"MAGENTA\", \"CYAN\", \"PINK\"\n" +
+					"\n" +
+					"\t\t\tDirections List:\n" +
+					"\n" +
+					"\t\t\t\"E\", \"W\", \"S\", \"N\", \"NW\", \"NE\", \"SW\", \"SE\"\n" +
+					"\n" +
+					"\t\tString parameters are represented inside a method with $ (Dollar Sign) followed by parameter no, for example:\n" +
+					"\n" +
+					"\t\t\t$1: Represents the first String parameter\n" +
+					"\t\t\t$10: Represents the tenth String parameter\n" +
+					"\n" +
+					"\t\tand Integer methods are represented inside a method with # followed by parameter no, for example:\n" +
+					"\n" +
+					"\t\t\t#1: Represents the second String parameter\n" +
+					"\n" +
+					"\t\tCalling a method with parameters red,yellow,1,2 will be treated as $1: red, $2: yellow, #1: 1, #2: 2 inside that method\n" +
+					"\n" +
+					"\t\tPre-defıned specıal methods are:\n" +
+					"\n" +
+					"\t\t\tGOTO row_no col_no: Goes to cell (pixel) in (row_no,col_no)\n" +
+					"\t\t\tINK: Paints that cell\n" +
+					"\t\t\tCLEARALL: Clear the board\n" +
+					"\t\t\tCLEAR row_no col_no: Clears the cell (row_no,col_no)\n" +
+					"\t\t\tCOLOR color_name: Set the color to given color using a color defined in Color List\n" +
+					"\t\t\tMETHOD method_name method_params(seperated with a comma (,)) no_of_recurrence: Calls a method with method_name using given method_params which is\n" +
+					"\t\t\t\trepeatedly called by no_of_recurrence times\n" +
+					"\t\t\tMARCH direction_name: Sets the direction of the pointer for the next move using a direction_name listed in Direction List");
+		}
+
 	}
 
 	public void repaintBoard()
