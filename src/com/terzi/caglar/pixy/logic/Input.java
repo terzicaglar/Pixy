@@ -1,7 +1,7 @@
 package com.terzi.caglar.pixy.logic;
 
 public class Input {
-	private int type /*0 int, 1 string*/, min, max;
+	private int type /* 0 int, 1 string*/, min, max;
 	private String[] acceptedWords;
 	
 	public Input(int type, int min, int max) {

@@ -65,7 +65,7 @@ import java.util.ArrayList;
 			METHOD method_name method_params(seperated with a comma (,)) no_of_recurrence: Calls a method with method_name using given method_params which is
 				repeatedly called by no_of_recurrence times
 			MARCH direction_name: Sets the direction of the pointer for the next move using a direction_name listed in Direction List
-
+*
 *
 	Classes
 		gui package

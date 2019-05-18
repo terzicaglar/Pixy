@@ -34,7 +34,7 @@ public class BoardFrame extends JFrame implements ActionListener
 	private JPanel rightPanel, //right panel which contains commandPanel, buttonPanel, and bottomPanel
 			commandPanel, //panel where user enters commans (code)
 			buttonPanel, //panel where Run and Save buttons are placed
-			bottomPanel; //panel where Show Grids checkbox, and row/column text fields are placed
+			bottomPanel; //panel where Show Grids checkbox, and row/column text fields are placed.
 	private JTextArea textArea, methodArea;
 	private JTextField rowsField,colsField;
 	private PlaceHolderTextField tf;
