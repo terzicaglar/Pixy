@@ -1,0 +1,1 @@
+method chess_generic white,black,4 1
