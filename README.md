@@ -10,11 +10,11 @@ If you wish to call your pre saved method, you need to write a command like this
 	method method_name param1,param2,param3 no_of_recurrences
 
 Here, all 4 fields are mandatory, i.e., you must write method keyword at the beginning, then write the
-	method name, e.g., chess, write the paramaters, e.g., red,yellow,4 (if you do not have any parameters you can write null)
-	and at last number of recurrences should be given ex:3 (if you do not call the method more than once,
+	method name, e.g., chess_generic, write the paramaters, e.g., red,yellow,4 (if you do not have any parameters you can write null)
+	and at last, number of recurrences should be given ex:3 (if you do not call the method more than once,
 	you should set it as 1) An example:
 
-	method chess yellow,red,4,1 1
+	method chess_generic yellow,red,4,1 1
 
 Integer parameters can be any int value, however, there are restrictions for String values. You should
 only use String values given below:
@@ -32,9 +32,9 @@ String parameters are represented inside a method with $ (Dollar Sign) followed 
 	$1: Represents the first String parameter
 	$10: Represents the tenth String parameter
 
-and Integer methods are represented inside a method with # followed by parameter no, for example:
+and Integer parameters are represented inside a method with # followed by parameter no, for example:
 
-	#2: Represents the second String parameter
+	#2: Represents the second Integer parameter
 
 Calling a method with parameters red,yellow,1,2 will be treated as $1: red, $2: yellow, #1: 1, #2: 2 inside that method
 
