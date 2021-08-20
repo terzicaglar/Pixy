@@ -1,1 +1,0 @@
-method satranc red,yellow,4 1

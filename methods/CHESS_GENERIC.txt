@@ -1,0 +1,1 @@
+method chess_double_row $1,$2,#1 #1

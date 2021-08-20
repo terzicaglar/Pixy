@@ -50,7 +50,6 @@ public class BoardFrame extends JFrame implements ActionListener
 	private JMenuItem help;
 	public BoardFrame(Board board, Command[] commandList, ArrayList<Method> methodList)
 	{
-	//to  Set JFrame title
 		super("PiXY");
 		this.methodList = methodList;
 		this.commandList = commandList;
@@ -92,6 +91,7 @@ public class BoardFrame extends JFrame implements ActionListener
 		commandPanel = new JPanel();
 		commandPanel.setLayout( new BorderLayout());
 		textArea = new JTextArea();
+		textArea.setText("method chess null 1");
 		run = new JButton("Run!");
 		run.setMnemonic(KeyEvent.VK_ENTER); //hotkey is alt+enter
 		save = new JButton("Save");
@@ -452,9 +452,9 @@ public class BoardFrame extends JFrame implements ActionListener
 					"\n" +
 					"method method_name param1,param2,param3 no_of_recurrences\n" +
 					"\n" +
-					"Here, all 4 fields are mandatory, i.e., you must write method keyword at the beginning, then write the method name ex:chess, write the paramaters ex:red,yellow,4 (if you do not have any parameters you can write null) and at last number of recurrences should be given ex:3 (if you do not call the method more than once, you should set it as 1) An example:\n" +
+					"Here, all 4 fields are mandatory, i.e., you must write method keyword at the beginning, then write the method name ex:chess_generic, write the paramaters ex:red,yellow,4 (if you do not have any parameters you can write null) and at last number of recurrences should be given ex:3 (if you do not call the method more than once, you should set it as 1) An example:\n" +
 					"\n" +
-					"method chess yellow,red,4,1 1\n" +
+					"method chess_generic yellow,red,4,1 1\n" +
 					"\n" +
 					"Integer parameters can be any int value, however, there are restrictions for String values. You should only use String values given below:\n" +
 					"\n" +
@@ -471,9 +471,9 @@ public class BoardFrame extends JFrame implements ActionListener
 					"$1: Represents the first String parameter\n" +
 					"$10: Represents the tenth String parameter\n" +
 					"\n" +
-					"and Integer methods are represented inside a method with # followed by parameter no, for example:\n" +
+					"and Integer parameters are represented inside a method with # followed by parameter no, for example:\n" +
 					"\n" +
-					"#1: Represents the second String parameter\n" +
+					"#2: Represents the second Integer parameter\n" +
 					"\n" +
 					"Calling a method with parameters red,yellow,1,2 will be treated as $1: red, $2: yellow, #1: 1, #2: 2 inside that method\n" +
 					"\n" +

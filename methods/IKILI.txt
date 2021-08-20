@@ -1,6 +1,0 @@
-color $1
-ink
-march $3
-color $2
-ink 
-march $3

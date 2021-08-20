@@ -1,3 +1,0 @@
-goto #2 #3
-color $1
-method satir #1 #1

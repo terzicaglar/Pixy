@@ -13,7 +13,7 @@ import java.util.ArrayList;
 /*
 	Author: Caglar Terzi
 	Date: 2014
-	Edited: 2019
+	Edited: 2019-2021
 *
 	PiXY Game
 		Create pixel based drawings using PiXY Language!
@@ -27,11 +27,11 @@ import java.util.ArrayList;
 			method method_name param1,param2,param3 no_of_recurrences
 
 		Here, all 4 fields are mandatory, i.e., you must write method keyword at the beginning, then write the
-			method name ex:chess, write the paramaters ex:red,yellow,4 (if you do not have any parameters you can write null)
+			method name ex:chess_generic, write the paramaters ex:red,yellow,4 (if you do not have any parameters you can write null)
 			and at last number of recurrences should be given ex:3 (if you do not call the method more than once,
 			you should set it as 1) An example:
 
-			method chess yellow,red,4,1 1
+			method chess_generic yellow,red,4,1 1
 
 		Integer parameters can be any int value, however, there are restrictions for String values. You should
 		only use String values given below:
@@ -49,13 +49,13 @@ import java.util.ArrayList;
 			$1: Represents the first String parameter
 			$10: Represents the tenth String parameter
 
-		and Integer methods are represented inside a method with # followed by parameter no, for example:
+		and Integer parameters are represented inside a method with # followed by parameter no, for example:
 
-			#1: Represents the second String parameter
+			#2: Represents the second Integer parameter
 
 		Calling a method with parameters red,yellow,1,2 will be treated as $1: red, $2: yellow, #1: 1, #2: 2 inside that method
 
-		Pre-defıned specıal methods are:
+		Pre-defined special methods are:
 
 			GOTO row_no col_no: Goes to cell (pixel) in (row_no,col_no)
 			INK: Paints that cell
@@ -65,22 +65,15 @@ import java.util.ArrayList;
 			METHOD method_name method_params(seperated with a comma (,)) no_of_recurrence: Calls a method with method_name using given method_params which is
 				repeatedly called by no_of_recurrence times
 			MARCH direction_name: Sets the direction of the pointer for the next move using a direction_name listed in Direction List
-*
-*
-	Classes
-		gui package
-			BoardFrame:
-
-	Board: Board to be drawn, has a color matrix to represent the board.
 
  */
 
 public class Game {
-	private static int rows = 20, cols = 20;
+	private static int rows = 8, cols = 8;
 	private static BoardFrame frame;
 	private static Board board = new Board(rows,cols,new Color(0xf0ffff));
 
-	//creating pre-defined specıal methods
+	//creating pre-defined special methods
 	private static Command commandList[] = {
 		new Command("GOTO",2, new Input[]{new Input(0, 1, board.getRows()), new Input(0, 1, board.getCols())}),
 		new Command("INK"),

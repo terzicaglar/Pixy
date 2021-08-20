@@ -1,2 +1,0 @@
-method march1 $1 #1
-method getback $2 #2
