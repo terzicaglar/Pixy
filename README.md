@@ -5,6 +5,9 @@ You can create custom methods for any drawing (like a chess board) and you can r
 In order to draw a pixel based drawing, you should enter valid commands to the text area and then you should click Run button on your right.
 You can save your commands by writing the method name on the top text field.
 
+![image](https://user-images.githubusercontent.com/3480398/144652718-de890bac-6cb9-4c65-a123-be09418bbcb5.png)
+
+
 If you wish to call your pre saved method, you need to write a command like this:
 
 	method method_name param1,param2,param3 no_of_recurrences
