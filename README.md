@@ -1,4 +1,4 @@
-<img width="150" alt="pixy" src="https://user-images.githubusercontent.com/3480398/163027144-0a437d29-34db-40e9-a6aa-14012a634f27.PNG">
+<img width="150" alt="pixy_alpha" src="https://user-images.githubusercontent.com/3480398/163027801-21a4724c-6d20-4d6a-bd38-42d3cba5bec3.PNG">
 
 
 Create pixel based drawings using PiXY!
