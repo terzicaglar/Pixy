@@ -258,7 +258,6 @@ public class BoardFrame extends JFrame implements ActionListener
 	    				g.drawRect(j * collength, i * rowLength, collength, rowLength);
     				}
     			}
-    		
         }
     }
 	
@@ -269,7 +268,6 @@ public class BoardFrame extends JFrame implements ActionListener
 		if(e.getSource() == showGrids)
 		{
 			repaintBoard();
-				
 		}
 		else if(e.getSource() == run)
 		{
@@ -318,34 +316,6 @@ public class BoardFrame extends JFrame implements ActionListener
 			}
 			
 			repaintBoard();
-			
-			/*if(e.getSource() == save && !error)
-			{
-				if(tf.getText().equals(placeHolderText) || tf.getText().length() <= 0)
-				{
-					tf.setBackground(Color.YELLOW);
-				}
-				else
-				{
-					tf.setBackground(Color.WHITE);
-					String name = tf.getText();
-					String textAreaContent = textArea.getText();
-					
-					PrintWriter writer;
-					try {
-						writer = new PrintWriter(methodLoc + name.toUpperCase() + ".txt", "UTF-8");
-						writer.print(textAreaContent);
-						writer.close();
-					} catch (FileNotFoundException e1) {
-						// TODO Auto-generated catch block
-						e1.printStackTrace();
-					} catch (UnsupportedEncodingException e1) {
-						// TODO Auto-generated catch block
-						e1.printStackTrace();
-					}
-					
-				}
-			}*/
 		}
 		else if(e.getSource() == save)
 		{
@@ -371,9 +341,7 @@ public class BoardFrame extends JFrame implements ActionListener
 					// TODO Auto-generated catch block
 					e1.printStackTrace();
 				}
-				
 				methodBox.addItem(name.toUpperCase());
-				
 			}
 		}
 		else if(e.getSource() == save2)
@@ -397,8 +365,6 @@ public class BoardFrame extends JFrame implements ActionListener
 					e1.printStackTrace();
 				}
 			}
-				
-
 		}
 		else if(e.getSource() == delete)
 		{
@@ -494,9 +460,7 @@ public class BoardFrame extends JFrame implements ActionListener
 			textArea.setWrapStyleWord(true);
 			scrollPane.setPreferredSize( new Dimension( 500, 500 ) );
 			JOptionPane.showMessageDialog(null, scrollPane);
-
 		}
-
 	}
 
 	public void repaintBoard()
@@ -505,7 +469,6 @@ public class BoardFrame extends JFrame implements ActionListener
 		boardPanel.repaint();
 	}
 	
-
 	public Board getBoard() {
 		return board;
 	}
@@ -513,5 +476,4 @@ public class BoardFrame extends JFrame implements ActionListener
 	public void setBoard(Board board) {
 		this.board = board;
 	}
-
 }

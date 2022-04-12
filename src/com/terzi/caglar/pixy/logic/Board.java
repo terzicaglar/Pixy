@@ -34,7 +34,6 @@ public class Board {
         clearBoard();
     }
 
-
     public void clearBoard() {
         xPointer = 0;
         yPointer = 0;

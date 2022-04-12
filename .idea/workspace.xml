@@ -2,26 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f9adb38-240a-49a6-bb04-8194138ea1e5" name="Default Changelist" comment="Methods folder is updated and minor revisions are .">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/META-INF/Pixy.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/com/terzi/caglar/pixy/gui/BoardFrame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/terzi/caglar/pixy/gui/BoardFrame$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/com/terzi/caglar/pixy/gui/BoardFrame$BoardPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/terzi/caglar/pixy/gui/BoardFrame$BoardPanel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/com/terzi/caglar/pixy/gui/BoardFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/terzi/caglar/pixy/gui/BoardFrame.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/com/terzi/caglar/pixy/gui/PlaceHolderTextField.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/terzi/caglar/pixy/gui/PlaceHolderTextField.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/terzi/caglar/pixy/logic/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/terzi/caglar/pixy/logic/Board.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/terzi/caglar/pixy/logic/Command.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/terzi/caglar/pixy/logic/Command.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/com/terzi/caglar/pixy/logic/CommandPerformer.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/terzi/caglar/pixy/logic/CommandPerformer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/terzi/caglar/pixy/logic/Input.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/terzi/caglar/pixy/logic/Input.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/terzi/caglar/pixy/logic/Method.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/terzi/caglar/pixy/logic/Method.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/com/terzi/caglar/pixy/main/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/terzi/caglar/pixy/main/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/methods/CHESS.txt" beforeDir="false" afterPath="$PROJECT_DIR$/customMethods/CHESS.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/methods/CHESS_DOUBLE_ROW.txt" beforeDir="false" afterPath="$PROJECT_DIR$/customMethods/CHESS_DOUBLE_ROW.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/methods/CHESS_GENERIC.txt" beforeDir="false" afterPath="$PROJECT_DIR$/customMethods/CHESS_GENERIC.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/methods/CHESS_ROW.txt" beforeDir="false" afterPath="$PROJECT_DIR$/customMethods/CHESS_ROW.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/terzi/caglar/pixy/gui/BoardFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/terzi/caglar/pixy/gui/BoardFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/terzi/caglar/pixy/gui/PlaceHolderTextField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/terzi/caglar/pixy/gui/PlaceHolderTextField.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/terzi/caglar/pixy/logic/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/terzi/caglar/pixy/logic/Board.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/terzi/caglar/pixy/logic/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/terzi/caglar/pixy/logic/Command.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/terzi/caglar/pixy/logic/CommandPerformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/terzi/caglar/pixy/logic/CommandPerformer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/terzi/caglar/pixy/logic/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/terzi/caglar/pixy/logic/Input.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/terzi/caglar/pixy/logic/Method.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/terzi/caglar/pixy/logic/Method.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/terzi/caglar/pixy/main/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/terzi/caglar/pixy/main/Game.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +170,21 @@
       <option name="project" value="LOCAL" />
       <updated>1649681107973</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="methods folder is renamed as customMethods and added new files in it">
+      <created>1649794448063</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1649794448063</updated>
+    </task>
+    <task id="LOCAL-00011" summary="auto-reformat code">
+      <created>1649794516130</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1649794516130</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -193,7 +206,9 @@
     <MESSAGE value="Methods folder is updated and minor revisions are made." />
     <MESSAGE value="Chess method is added" />
     <MESSAGE value="update .gitignore file" />
-    <option name="LAST_COMMIT_MESSAGE" value="update .gitignore file" />
+    <MESSAGE value="methods folder is renamed as customMethods and added new files in it" />
+    <MESSAGE value="auto-reformat code" />
+    <option name="LAST_COMMIT_MESSAGE" value="auto-reformat code" />
   </component>
   <component name="masterDetails">
     <states>

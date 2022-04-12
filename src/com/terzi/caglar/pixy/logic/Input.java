@@ -25,7 +25,6 @@ public class Input {
         this.acceptedWords = acceptedWords;
     }
 
-
     public boolean checkInput(String input) {
         if (type == 0 && (!isInteger(input) || Integer.parseInt(input) < min || Integer.parseInt(input) > max))
             return false;
@@ -83,6 +82,4 @@ public class Input {
     public void setAcceptedWords(String[] acceptedWords) {
         this.acceptedWords = acceptedWords;
     }
-
-
 }

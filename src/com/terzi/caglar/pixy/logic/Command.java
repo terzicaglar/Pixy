@@ -1,8 +1,5 @@
 package com.terzi.caglar.pixy.logic;
 
-import java.util.ArrayList;
-
-
 public class Command {
     private String name;
     private Input inputs[];
@@ -43,6 +40,4 @@ public class Command {
     public void setParamLength(int paramLength) {
         this.paramLength = paramLength;
     }
-
-
 }

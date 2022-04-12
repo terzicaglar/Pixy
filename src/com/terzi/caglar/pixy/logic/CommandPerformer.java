@@ -93,18 +93,14 @@ public class CommandPerformer {
         } else if (command.equalsIgnoreCase("COLOR")) {
             String colorString = st.nextToken();
             board.setColor(getColorFromString(colorString));
-
-
         } else if (command.equalsIgnoreCase("CLEARALL")) {
             board.clearBoard();
         } else if (command.equalsIgnoreCase("CLEAR")) {
             int row = Integer.parseInt(st.nextToken()) - 1; //starts from 1 (not 0 as usual)
             int col = Integer.parseInt(st.nextToken()) - 1; //starts from 1 (not 0 as usual)
-
             board.drawCell(row, col, board.getClearColor());
         } else if (command.equalsIgnoreCase("MARCH")) {
             String direction = st.nextToken();
-
             if (direction.equalsIgnoreCase("E"))
                 board.setPointer(board.getPointer() + 1);
             else if (direction.equalsIgnoreCase("W"))
@@ -142,7 +138,6 @@ public class CommandPerformer {
                         newMethod.addString(param);
                     }
                 }
-
                 BufferedReader br = null;
                 ArrayList<String> methodLines = new ArrayList<String>();
                 try {
@@ -174,16 +169,14 @@ public class CommandPerformer {
                     }
                 }
 
-                for (int i = 0; i < recurrence; i++)
-                    for (int j = 0; j < methodLines.size(); j++)
+                for (int i = 0; i < recurrence; i++) {
+                    for (int j = 0; j < methodLines.size(); j++) {
                         performCommand(methodLines.get(j));
-
+                    }
+                }
             }
-
         }
         noOfLines++;
-
-
     }
 
     private Color getColorFromString(String colorString) {
@@ -260,7 +253,6 @@ public class CommandPerformer {
             index = methodLine.indexOf("#", index + 1);
         }
 
-
         boolean isValidLine = checkLine(methodLine);
         if (!isValidLine)
             return "ERROR - LINE IS INVALID: " + methodLine;
@@ -277,6 +269,4 @@ public class CommandPerformer {
         // only got here if we didn't return false
         return true;
     }
-
-
 }

@@ -8,7 +8,6 @@ public class Method {
     private ArrayList<String> strings;
     private String name;
 
-
     public Method(ArrayList<Integer> integers, ArrayList<String> strings, String name) {
         this.setIntegers(integers);
         this.setStrings(strings);
@@ -38,25 +37,19 @@ public class Method {
         this.name = name;
     }
 
-
     public ArrayList<Integer> getIntegers() {
         return integers;
     }
-
 
     public void setIntegers(ArrayList<Integer> integers) {
         this.integers = integers;
     }
 
-
     public ArrayList<String> getStrings() {
         return strings;
     }
 
-
     public void setStrings(ArrayList<String> strings) {
         this.strings = strings;
     }
-
-
 }
