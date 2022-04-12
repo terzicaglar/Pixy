@@ -1,0 +1,10 @@
+method march_with_length s,1 #1
+ink
+method march_with_length s,1 #1
+method line_with_length s,#1 1
+method line_with_length s,1 1
+march n
+method march_with_length n,1 #1
+method march_with_length n,1 #1
+march e
+march e

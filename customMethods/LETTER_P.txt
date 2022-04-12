@@ -1,0 +1,14 @@
+method line_with_length s,#1 3
+method line s 1
+method march_with_length n,#1 3
+method march_with_length n,1 1
+march e
+method line_with_length se,#1 1
+method line se 1
+march w
+march w
+method line_with_length sw,#1 1
+method march_with_length n,#1 2
+method march_with_length n,1 1
+method march_with_length e,#1 1
+method march_with_length e,1 3

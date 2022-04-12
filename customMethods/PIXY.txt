@@ -1,0 +1,8 @@
+color blue
+method letter_p #1 1
+color magenta
+method letter_i #1 1
+color red
+method letter_x #1 1
+color orange
+method letter_y #1 1
