@@ -1,6 +1,7 @@
-# PiXY
+<img width="150" alt="pixy_alpha" src="https://user-images.githubusercontent.com/3480398/163027801-21a4724c-6d20-4d6a-bd38-42d3cba5bec3.PNG">
 
-Create pixel based drawings using PiXY Language!
+
+Create pixel based drawings using PiXY!
 
 PiXY is a drawing tool inspired by [ROBO](http://www.cs.bilkent.edu.tr/~david/robo.htm), a program that helps to teach basic computer engineering concepts to freshmen CS students, developed by [David Davenport](http://www.cs.bilkent.edu.tr/~david/david.html).
 
