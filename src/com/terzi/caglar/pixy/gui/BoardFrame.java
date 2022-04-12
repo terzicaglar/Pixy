@@ -43,7 +43,8 @@ public class BoardFrame extends JFrame implements ActionListener
 	private Command[] commandList;
 	private CommandPerformer commandPerformer;
 	private Timer delay;
-	private String placeHolderText = "Enter a method name to save", methodLoc = "methods/";
+	private String placeHolderText = "Enter a method name to save";
+	public static final String methodLoc = "customMethods/";
 	private ArrayList<Method> methodList;
 	private JMenuBar menuBar;
 	private JMenu helpMenu;
@@ -113,7 +114,8 @@ public class BoardFrame extends JFrame implements ActionListener
 		bottomPanel.add(showGrids);
 		bottomPanel.add(rowsField);
 		bottomPanel.add(colsField);
-		
+
+		textArea.setFont(new Font(Font.SANS_SERIF, Font.PLAIN, 22));
 		commandPanel.add(textArea, BorderLayout.CENTER);
 		commandPanel.add(buttonPanel, BorderLayout.EAST);
 		commandPanel.add(tf, BorderLayout.NORTH);
@@ -131,6 +133,7 @@ public class BoardFrame extends JFrame implements ActionListener
 		
 		
 		methodArea = new JTextArea();
+		methodArea.setFont(new Font(Font.SANS_SERIF, Font.PLAIN, 22));
 		addItemstoMethodArea();
 		fillMethodArea();
 		methodPanel.add(methodArea, BorderLayout.CENTER);

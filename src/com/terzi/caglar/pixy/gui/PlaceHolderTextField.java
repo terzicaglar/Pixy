@@ -20,8 +20,7 @@ public class PlaceHolderTextField extends JTextField {
     public PlaceHolderTextField(
             final Document pDoc,
             final String pText,
-            final int pColumns)
-    {
+            final int pColumns) {
         super(pDoc, pText, pColumns);
     }
 
