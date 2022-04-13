@@ -2,17 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f9adb38-240a-49a6-bb04-8194138ea1e5" name="Default Changelist" comment="Methods folder is updated and minor revisions are .">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/terzi/caglar/pixy/gui/BoardFrame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/terzi/caglar/pixy/gui/BoardFrame$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/terzi/caglar/pixy/gui/BoardFrame$BoardPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/terzi/caglar/pixy/gui/BoardFrame$BoardPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/terzi/caglar/pixy/gui/BoardFrame.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/terzi/caglar/pixy/gui/BoardFrame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/terzi/caglar/pixy/gui/PlaceHolderTextField.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/terzi/caglar/pixy/gui/PlaceHolderTextField.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/terzi/caglar/pixy/logic/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/terzi/caglar/pixy/logic/Board.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/terzi/caglar/pixy/logic/Command.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/terzi/caglar/pixy/logic/Command.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/terzi/caglar/pixy/logic/CommandPerformer.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/terzi/caglar/pixy/logic/CommandPerformer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/terzi/caglar/pixy/logic/Input.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/terzi/caglar/pixy/logic/Input.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/terzi/caglar/pixy/logic/Method.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/terzi/caglar/pixy/logic/Method.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/terzi/caglar/pixy/main/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/terzi/caglar/pixy/main/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/META-INF/Pixy.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/terzi/caglar/pixy/gui/BoardFrame$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/terzi/caglar/pixy/gui/BoardFrame$BoardPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/terzi/caglar/pixy/gui/BoardFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/terzi/caglar/pixy/gui/PlaceHolderTextField.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/terzi/caglar/pixy/logic/Board.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/terzi/caglar/pixy/logic/Command.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/terzi/caglar/pixy/logic/CommandPerformer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/terzi/caglar/pixy/logic/Input.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/terzi/caglar/pixy/logic/Method.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/com/terzi/caglar/pixy/main/Game.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649794974235</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="update .gitignore">
+      <created>1649795007925</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1649795007925</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -208,7 +216,8 @@
     <MESSAGE value="methods folder is renamed as customMethods and added new files in it" />
     <MESSAGE value="auto-reformat code" />
     <MESSAGE value="delete unnecessary spaces and comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete unnecessary spaces and comments" />
+    <MESSAGE value="update .gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="update .gitignore" />
   </component>
   <component name="masterDetails">
     <states>
