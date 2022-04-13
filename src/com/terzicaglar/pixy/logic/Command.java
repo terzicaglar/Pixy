@@ -1,4 +1,4 @@
-package com.terzi.caglar.pixy.logic;
+package com.terzicaglar.pixy.logic;
 
 public class Command {
     private String name;

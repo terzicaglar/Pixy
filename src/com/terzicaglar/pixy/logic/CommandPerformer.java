@@ -1,8 +1,6 @@
-package com.terzi.caglar.pixy.logic;
+package com.terzicaglar.pixy.logic;
 
-import com.terzi.caglar.pixy.gui.BoardFrame;
-import com.terzi.caglar.pixy.logic.Board;
-import com.terzi.caglar.pixy.logic.Method;
+import com.terzicaglar.pixy.gui.BoardFrame;
 
 import java.awt.Color;
 import java.io.BufferedReader;

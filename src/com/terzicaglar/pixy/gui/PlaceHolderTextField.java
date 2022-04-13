@@ -1,4 +1,4 @@
-package com.terzi.caglar.pixy.gui;
+package com.terzicaglar.pixy.gui;
 
 import java.awt.*;
 

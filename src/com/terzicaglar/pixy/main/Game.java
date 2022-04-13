@@ -1,11 +1,10 @@
-package com.terzi.caglar.pixy.main;
+package com.terzicaglar.pixy.main;
 
-import com.terzi.caglar.pixy.logic.Command;
-import com.terzi.caglar.pixy.gui.BoardFrame;
-import com.terzi.caglar.pixy.logic.Board;
-import com.terzi.caglar.pixy.logic.Command;
-import com.terzi.caglar.pixy.logic.Input;
-import com.terzi.caglar.pixy.logic.Method;
+import com.terzicaglar.pixy.logic.Command;
+import com.terzicaglar.pixy.gui.BoardFrame;
+import com.terzicaglar.pixy.logic.Board;
+import com.terzicaglar.pixy.logic.Input;
+import com.terzicaglar.pixy.logic.Method;
 
 import java.awt.Color;
 import java.util.ArrayList;
@@ -26,6 +25,7 @@ public class Game {
             //new Command("WAIT",1, new Input[]{new Input(0, 1, 5000)}),
             //new Command("draw",2, new Input[]{new Input(1,new String[]{"E", "W", "S", "N", "NW", "NE", "SW", "SE"}), new Input(0)})
             new Command("MARCH", 1, new Input[]{new Input(1, new String[]{"E", "W", "S", "N", "NW", "NE", "SW", "SE"})})
+
     };
     private static ArrayList<Method> methodList;
 

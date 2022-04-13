@@ -1,4 +1,4 @@
-package com.terzi.caglar.pixy.logic;
+package com.terzicaglar.pixy.logic;
 
 public class Input {
     private int type /* 0 int, 1 string*/, min, max;

@@ -1,10 +1,9 @@
-package com.terzi.caglar.pixy.gui;
+package com.terzicaglar.pixy.gui;
 
-import com.terzi.caglar.pixy.gui.PlaceHolderTextField;
-import com.terzi.caglar.pixy.logic.Board;
-import com.terzi.caglar.pixy.logic.Method;
-import com.terzi.caglar.pixy.logic.Command;
-import com.terzi.caglar.pixy.logic.CommandPerformer;
+import com.terzicaglar.pixy.logic.Board;
+import com.terzicaglar.pixy.logic.Method;
+import com.terzicaglar.pixy.logic.Command;
+import com.terzicaglar.pixy.logic.CommandPerformer;
 
 import java.awt.*;
 import java.awt.event.ActionEvent;
