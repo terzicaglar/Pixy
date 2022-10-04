@@ -33,7 +33,7 @@ Finally, our whole code can be parametrized and user can set the colors, directi
 
 ![image](https://user-images.githubusercontent.com/3480398/162761475-3635cc76-ad05-4900-b10a-ddc167e85a9a.png)
 
-Parameters defined with *#* sign denotes that these parameters are integer numbers. *#1*: starting pixel's row value, *#2*: starting pixel's column value, *#3*: half-length of the line, *$1*: first half's color, *$2*: second half's color, *$3* is the direction of the line. If we save this code as *TWO_COLORED_LINE* method, we can call it with parameters below to draw a diagonal (in south-east (SE) direction) $10$ pixels magenta and black line starting from (row:$3$, col:$2$). Note that each parameter is divided with comma. $1$ at the end means that this method is called once.
+Parameters defined with *#* sign denotes that these parameters are integer numbers. *#1*: starting pixel's row value, *#2*: starting pixel's column value, *#3*: half-length of the line, *$1*: first half's color, *$2*: second half's color, *$3* is the direction of the line. If we save this code as *TWO_COLORED_LINE* method, we can call it with parameters below to draw a diagonal (in south-east (SE) direction) $10$ pixels magenta and black line starting from (row: $3$, col: $2$). Note that each parameter is divided with comma. $1$ at the end means that this method is called once.
 
 ![image](https://user-images.githubusercontent.com/3480398/162761958-9af2c0fd-8ab8-42de-a687-cb0d9a9da527.png)
 
