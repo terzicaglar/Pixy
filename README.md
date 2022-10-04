@@ -1,11 +1,13 @@
 <img width="150" alt="pixy_alpha" src="https://user-images.githubusercontent.com/3480398/163027801-21a4724c-6d20-4d6a-bd38-42d3cba5bec3.PNG">
 
 
-Create pixel based drawings using PiXY!
+# Create pixel based drawings using PiXY!
 
 PiXY is a drawing tool inspired by [ROBO](http://www.cs.bilkent.edu.tr/~david/robo.htm), a program that helps to teach basic computer engineering concepts to freshmen CS students, developed by [David Davenport](http://www.cs.bilkent.edu.tr/~david/david.html).
 
 What you can do using PiXY is very basic, you can color pixels in the given grid one by one and eventually create some art. You can go to a desired pixel either using its row and column coordinates or you can move one pixel at a time using eight directional movement. After reaching to the desired pixel, you can paint that pixel with a color or clear it. These are all the things you can do using predefined commands for coloring pixels.
+
+# Example 1 - Two-colored Line
 
 If we want to draw a blue and red line from $(4,2)$ to $(4,7)$, we should write commands like this:
 
@@ -21,7 +23,7 @@ Now, we can call *INK_AND_MARCH* method $10$ times for blue color and $10$ times
 
 ![image](https://user-images.githubusercontent.com/3480398/162755411-ffdccecd-eafc-43f6-835e-1ca6a81def35.png)
 
-We see a new predefined method named as *METHOD*. We use it to call our previously saved methods. After command *METHOD*, we write our saved method's name, *INK_AND_MARCH*, and then we write the parameters of this method, which is *NULL* for this example, since we do not have any parameters in this method, and finally, number of repetitions, which is $10$. This method call is equivalent to writing `INK` and `MARH E` $10$$ times. Since, $20$ pixel line could not fit into a $8$x$8$ grid, we changed our grid size to $22$x$22$ for this example.
+We see a new predefined method named as *METHOD*. We use it to call our previously saved methods. After command *METHOD*, we write our saved method's name, *INK_AND_MARCH*, and then we write the parameters of this method, which is *NULL* for this example, since we do not have any parameters in this method, and finally, number of repetitions, which is $10$. This method call is equivalent to writing `INK` and `MARH E` $10$ times. Since, $20$ pixel line could not fit into a $8$x$8$ grid, we changed our grid size to $22$x$22$ for this example.
 
 What happens if we want to draw our line vertically, instead of horizontally? Should we write another version of *INK_AND_MARCH* method and set the marching direction to south with command `MARCH S`? We can do that, but a better solution will be parameterizing the direction input. Instead of `MARCH E` command in *INK_AND_MARCH* method, we can write `MARCH $1`. *$* denotes that the given input is a string input with letters, and $1$ denotes that it is the first string input. After making this change, we can modify our code as below, and get a vertical line.
 
@@ -36,11 +38,11 @@ Parameters defined with *#* sign denotes that these parameters are integer numbe
 ![image](https://user-images.githubusercontent.com/3480398/162761958-9af2c0fd-8ab8-42de-a687-cb0d9a9da527.png)
 
 
-Example chess board drawing:
+# Example 2 - Chess Board
 
 ![image](https://user-images.githubusercontent.com/3480398/144652718-de890bac-6cb9-4c65-a123-be09418bbcb5.png)
 
-
+# Commands and Parameters
 
 If you wish to call your previously saved method, you need to write a command like this:
 
